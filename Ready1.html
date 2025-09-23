@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crea tu señal</title>
+	<link rel="icon" href="favicon.ico">
+	<style>
+		.signContainer {
+			width: 556px;
+			height: 156px;
+			border: 1px solid silver;
+		}
+		.symbolContainer {
+			width: 149px;
+			height: 156px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.textContainer {
+			width: 392px;
+			height: 142px;
+			line-height: 134px;
+			margin-right: 7px;
+			margin-top: 7px;
+			float: right;
+			background-color: #247F52;
+			text-align: center;
+			justify-content: center;
+			align-items: center;
+		}
+		span {
+			fontWeight: bold;
+			display: inline-block;
+			vertical-align: middle;
+			line-height: normal;
+			color: white;
+			font: 48px/1 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+		}
+    </style>
+</head>
+
+<body>
+	<h1>Crea tu señal</h1>
+	<div class="signContainer">
+		<div id = "textContainer" class="textContainer">
+			<span id = "signText"><b>Salida de emergencia</b></span>
+		</div>
+		<div class="symbolContainer">
+			<img class = "symbol" id="symbol" width="142" src="https://upload.wikimedia.org/wikipedia/commons/5/57/ISO_7010_E001.svg">
+		</div>
+    </div>	
+	
+    <div class="controls">
+        <label for="svgUrlInput">Símbolo</label>
+        <input type="text" id="svgUrlInput" placeholder="Entrar URL de SVG">
+		<br>
+        <label for="textInput">Texto</label>
+        <input type="text" id="textInput" value="Salida de emergencia">
+		<br>
+        <label for="colorChoice">Color</label>
+        <select id="colorChoice">
+			<option value="#A92121">Rojo</option>
+			<option value="#F9A800">Amarillo</option>
+			<option value="#247F52">Verde</option>
+			<option value="#24578E">Azul</option>
+		</select>
+		<br>
+        <label for="colorPicker">Custom</label>
+        <input type="color" id="colorPicker" value="#247F52">
+		<br>
+        <label for="hideInput">Mostrar fondo del texto</label>
+        <input type="checkbox" id="hideInput" value="yes" checked>	
+    </div>
+
+	<h2>Listas de símbolos</h2>
+	<ul>
+		<li><a href="https://en.wikipedia.org/wiki/ISO_7010">ISO 7010</li>
+		<li><a href="https://commons.wikimedia.org/wiki/Category:ISO_6309">ISO 6309</li>
+		<li><a href="https://commons.wikimedia.org/wiki/Category:BS_5499_safety_signs">BS 5499</li>
+		<li><a href="https://en.wikipedia.org/wiki/Directive_92/58/EEC">92/58/EEC</li>
+	</ul>
+	
+	
+	<script>
+		const symbol = document.getElementById('symbol');
+        const svgUrlInput = document.getElementById('svgUrlInput');
+		
+		const signText = document.getElementById('signText');
+		const textInput = document.getElementById('textInput');
+		
+		const textContainer = document.getElementById('textContainer');
+		const colorChoice = document.getElementById('colorChoice');
+		const colorPicker = document.getElementById('colorPicker');
+		const hideInput = document.getElementById('hideInput');
+		
+		var colour = "#247F52";
+		var textColour = "white";
+		var hsvalue = 128;
+		var r;
+		var g;
+		var b;
+		
+        svgUrlInput.addEventListener('keydown', (event) => {
+			if (event.key === 'Enter') {
+				event.preventDefault();
+				symbol.setAttribute('src', svgUrlInput.value);
+			}
+        });
+		
+        textInput.addEventListener('keydown', (event) => {
+			if (event.key === 'Enter') {
+				event.preventDefault();
+				signText.textContent = textInput.value;
+				signText.style.fontWeight = 'bold';
+			}
+        });
+		
+		colorChoice.addEventListener('change', function() {
+			colour = colorChoice.value;
+			textContainer.style.backgroundColor = colour;
+			r = parseInt(colour.substring(1,2),16)/15;
+			g = parseInt(colour.substring(3,4),16)/15;
+			b = parseInt(colour.substring(5,6),16)/15;
+			hsvalue = (r * 0.213 + g * 0.716 + b * 0.072)
+			if (hsvalue > (134/255)) {
+				textColour = "black"
+			} else {
+				textColour = "white"
+			}
+			signText.style.color = textColour;
+		});
+
+        colorPicker.addEventListener('input', () => {
+			colour = colorPicker.value;
+			textContainer.style.backgroundColor = colour;
+			r = parseInt(colour.substring(1,2),16)/15;
+			g = parseInt(colour.substring(3,4),16)/15;
+			b = parseInt(colour.substring(5,6),16)/15;
+			hsvalue = (r * 0.213 + g * 0.716 + b * 0.072)
+			if (hsvalue > (134/255)) {
+				textColour = "black"
+			} else {
+				textColour = "white"
+			}
+			signText.style.color = textColour;
+		});
+
+		hideInput.addEventListener('change', function() {
+			if (this.checked) {
+				textContainer.style.backgroundColor = colour;
+				signText.style.color = textColour;
+				colorChoice.disabled = false;
+				colorPicker.disabled = false;
+			} else {
+				textContainer.style.backgroundColor = "#00000000";
+				signText.style.color = "black";
+				colorChoice.disabled = true;
+				colorPicker.disabled = true;
+			}
+		});
+	</script>
+</body>
+</html>
