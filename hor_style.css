@@ -1,8 +1,11 @@
 body {
+  margin-left: 156px;
   overflow-x: auto;
 }
 
 .gridContainer {
+    margin-left: auto;
+    margin-right: auto;
 	width: 3290px;
 	display: grid;
 	grid-template-columns: repeat(5, 556px);
