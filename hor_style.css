@@ -3,6 +3,7 @@ body {
 }
 
 .gridContainer {
+	width: 3290px;
 	display: grid;
 	grid-template-columns: repeat(5, 556px);
 	grid-auto-rows: 156px;
