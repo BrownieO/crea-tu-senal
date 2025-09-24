@@ -1,3 +1,7 @@
+body {
+  overflow-x: auto;
+}
+
 .gridContainer {
 	display: grid;
 	grid-template-columns: repeat(5, 556px);
