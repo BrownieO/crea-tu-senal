@@ -1,0 +1,242 @@
+[
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/ISO_6309_-_1_-_Manual_Call_Point.svg",
+	"text": "Activación manual",
+	"bgColor": "#DA3B33",
+	"textColor": "#ECECE7"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/ISO_6309_-_2_-_Fire_Alarm_Sounder.svg",
+	"text": "Alarma de incendio",
+	"bgColor": "#DA3B33",
+	"textColor": "#ECECE7"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ISO_6309_-_3_-_Emergency_Phone.svg",
+	"text": "Teléfono de emergencia",
+	"bgColor": "#DA3B33",
+	"textColor": "#ECECE7"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/ISO_7010_E001.svg",
+	"text": "Salida de emergencia",
+	"bgColor": "#1E7C4E",
+	"textColor": "#F8F8F8"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/ISO_6309_-_5_-_Do_Not_Obstruct.svg",
+	"text": "No obstruir",
+	"bgColor": "#FFFFFF",
+	"textColor": "#000000"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/ISO_6309_-_6_-_Slide_to_Open_-_Left.svg",
+	"text": "Deslizar para abrir",
+	"bgColor": "#049B78",
+	"textColor": "#ECECE7"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/ISO_6309_-_7_-_Push_To_Open.svg",
+	"text": "Empujar para abrir",
+	"bgColor": "#049B78",
+	"textColor": "#ECECE7"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/ISO_6309_-_8_-_Pull_To_Open.svg",
+	"text": "Tirar para abrir",
+	"bgColor": "#049B78",
+	"textColor": "#ECECE7"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/ISO_6309_-_9_-_Break_to_Obtain_Access.svg",
+	"text": "Romper para tirar acceso",
+	"bgColor": "#049B78",
+	"textColor": "#ECECE7"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/ISO_6309_-_10_-_Collection_of_Firefighting_Equipment.svg",
+	"text": "Conjunto de equipos contra fuego",
+	"bgColor": "#DA3B33",
+	"textColor": "#ECECE7"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/ISO_6309_-_11_-_Fire_Extinguisher.svg",
+	"text": "Extintor de fuego",
+	"bgColor": "#DA3B33",
+	"textColor": "#ECECE7"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/ISO_6309_-_12_-_Fire_Hose_Reel.svg",
+	"text": "Red húmeda",
+	"bgColor": "#DA3B33",
+	"textColor": "#ECECE7"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/ISO_6309_-_13_-_Fire_Ladder.svg",
+	"text": "Escalera de incendio",
+	"bgColor": "#DA3B33",
+	"textColor": "#ECECE7"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/ISO_7010_W021.svg",
+	"text": "Materiales inflamables",
+	"bgColor": "#F9AA00",
+	"textColor": "#000000"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/ISO_7010_W028.svg",
+	"text": "Materiales comburentes",
+	"bgColor": "#F9AA00",
+	"textColor": "#000000"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/ISO_7010_W002.svg",
+	"text": "Materiales explosivos",
+	"bgColor": "#F9AA00",
+	"textColor": "#000000"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/EEC_Safety_Sign_1977_-_Do_not_extinguish_with_water.svg",
+	"text": "Prohibida la extinción utilizando agua",
+	"bgColor": "#FFFFFF",
+	"textColor": "#000000"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/EEC_Safety_Sign_1977_-_No_smoking.svg",
+	"text": "Prohibido fumar",
+	"bgColor": "#FFFFFF",
+	"textColor": "#000000"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/EEC_Safety_Sign_1977_-_Smoking_and_naked_flames_forbidden.svg",
+	"text": "No generar llama",
+	"bgColor": "#FFFFFF",
+	"textColor": "#000000"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/ISO_6309_-_20_-_Escape_Route_Arrow_-_90_Degree.svg",
+	"text": "Vía de evacuación",
+	"bgColor": "#049B78",
+	"textColor": "#FFFFFF"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/ISO_6309_-_21_-_Fire_Equipment_Arrow_-_90_Degree.svg",
+	"text": "Equipos de lucha contra fuego",
+	"bgColor": "#DA3B33",
+	"textColor": "#FFFFFF"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/ISO_7010_E003_-_First_aid_sign.svg",
+	"text": "Primeros auxilios",
+	"bgColor": "#008855",
+	"textColor": "#FFFFFF"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/ISO_7010_P020.svg",
+	"text": "No usar ascensores en caso de incendio",
+	"bgColor": "#FFFFFF",
+	"textColor": "#000000"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/ISO_7010_W009.svg",
+	"text": "Riesgo biológico",
+	"bgColor": "#F9AA00",
+	"textColor": "#000000"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/ISO_7010_W003.svg",
+	"text": "Radiación ionizante",
+	"bgColor": "#F9AA00",
+	"textColor": "#000000"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/ISO_7010_P004.svg",
+	"text": "No pasar",
+	"bgColor": "#FFFFFF",
+	"textColor": "#000000"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/ISO_7010_P005.svg",
+	"text": "Prohibido beber agua",
+	"bgColor": "#FFFFFF",
+	"textColor": "#000000"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/ISO_7010_W001.svg",
+	"text": "Advertencia",
+	"bgColor": "#F9AA00",
+	"textColor": "#000000"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/ISO_7010_W023.svg",
+	"text": "Sustancia corrosiva",
+	"bgColor": "#F9AA00",
+	"textColor": "#000000"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/ISO_7010_W016.svg",
+	"text": "Material tóxico",
+	"bgColor": "#F9AA00",
+	"textColor": "#000000"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/ISO_7010_W012.svg",
+	"text": "Electricidad",
+	"bgColor": "#F9AA00",
+	"textColor": "#000000"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/BS_5499-5.0025_Wear_eye_protection.svg",
+	"text": "Proteja sus ojos",
+	"bgColor": "#289EE0",
+	"textColor": "#FFFFFF"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/BS_5499-5.0028_Wear_respiratory_protection.svg",
+	"text": "Proteja sus pulmones",
+	"bgColor": "#289EE0",
+	"textColor": "#FFFFFF"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/BS_5499-5.0024_Wear_head_protection.svg",
+	"text": "Proteja su cabeza",
+	"bgColor": "#289EE0",
+	"textColor": "#FFFFFF"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/BS_5499-5.0027_Wear_hearing_protection.svg",
+	"text": "Proteja sus oídos",
+	"bgColor": "#289EE0",
+	"textColor": "#FFFFFF"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/BS_5499-5.0026_Wear_hand_protection.svg",
+	"text": "Proteja sus manos",
+	"bgColor": "#289EE0",
+	"textColor": "#FFFFFF"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/BS_5499-5.0031_Wear_foot_protection.svg",
+	"text": "Proteja sus pies",
+	"bgColor": "#289EE0",
+	"textColor": "#FFFFFF"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/ISO_7010_W011.svg",
+	"text": "Superficie resbaladiza",
+	"bgColor": "#F9AA00",
+	"textColor": "#000000"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/ISO_7010_W008.svg",
+	"text": "Peligro de caídas",
+	"bgColor": "#F9AA00",
+	"textColor": "#000000"
+	},
+	{
+	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/NEN_ISO_7010_-_Verboden%2C_Alleen_geautoriseerde_toegang.svg",
+	"text": "Solo personal autorizado",
+	"bgColor": "#FFFFFF",
+	"textColor": "#000000"
+	}
+]

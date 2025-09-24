@@ -1,0 +1,40 @@
+.gridContainer {
+	display: grid;
+	grid-template-columns: repeat(5, 556px);
+	grid-auto-rows: 156px;
+	grid-gap: 102px 216px;
+	justify-content: center;
+	padding: 20px;
+}
+.signContainer {
+	width: 556px;
+	height: 156px;
+	border: 1px solid silver;
+}
+.symbolContainer {
+	width: 149px;
+	height: 156px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.textContainer {
+	width: 392px;
+	height: 142px;
+	line-height: 134px;
+	margin-right: 7px;
+	margin-top: 7px;
+	float: right;
+	background-color: #247F52;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+.signText {
+	fontWeight: bold;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+	color: white;
+	font: 48px/1 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
