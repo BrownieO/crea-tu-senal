@@ -1,7 +1,7 @@
 [
 	{
 	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/ISO_6309_-_1_-_Manual_Call_Point.svg",
-	"text": "Activación manual",
+	"text": "Activador manual de alarma",
 	"bgColor": "#DA3B33",
 	"textColor": "#ECECE7"
 	},
@@ -49,7 +49,7 @@
 	},
 	{
 	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/ISO_6309_-_9_-_Break_to_Obtain_Access.svg",
-	"text": "Romper para tirar acceso",
+	"text": "Romper para tener acceso",
 	"bgColor": "#049B78",
 	"textColor": "#ECECE7"
 	},
@@ -114,18 +114,6 @@
 	"textColor": "#000000"
 	},
 	{
-	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/ISO_6309_-_20_-_Escape_Route_Arrow_-_90_Degree.svg",
-	"text": "Vía de evacuación",
-	"bgColor": "#049B78",
-	"textColor": "#FFFFFF"
-	},
-	{
-	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/ISO_6309_-_21_-_Fire_Equipment_Arrow_-_90_Degree.svg",
-	"text": "Equipos de lucha contra fuego",
-	"bgColor": "#DA3B33",
-	"textColor": "#FFFFFF"
-	},
-	{
 	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/ISO_7010_E003_-_First_aid_sign.svg",
 	"text": "Primeros auxilios",
 	"bgColor": "#008855",
@@ -157,7 +145,7 @@
 	},
 	{
 	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/ISO_7010_P005.svg",
-	"text": "Agua no apta para consumo humano",
+	"text": "Agua no apta para el consumo humano",
 	"bgColor": "#FFFFFF",
 	"textColor": "#000000"
 	},
@@ -229,7 +217,7 @@
 	},
 	{
 	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/ISO_7010_W008.svg",
-	"text": "Peligro de caídas",
+	"text": "Peligro de caída",
 	"bgColor": "#F9AA00",
 	"textColor": "#000000"
 	},
