@@ -145,7 +145,7 @@
 	},
 	{
 	"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/ISO_7010_P005.svg",
-	"text": "Agua no apta para el consumo humano",
+	"text": "Agua no apta para consumo humano",
 	"bgColor": "#FFFFFF",
 	"textColor": "#000000"
 	},
@@ -228,3 +228,4 @@
 	"textColor": "#000000"
 	}
 ]
+
